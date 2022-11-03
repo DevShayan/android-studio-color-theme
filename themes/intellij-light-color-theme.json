@@ -1,0 +1,295 @@
+{
+	"name": "Intellij-light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#ffffff",
+		"editor.foreground": "#000000",
+		"editorLineNumber.foreground": "#adadad",
+		"editorLineNumber.activeForeground": "#adadad",
+		"editorGutter.background": "#f2f2f2",
+		"editor.selectionBackground": "#a6d2ff",
+		"editor.selectionHighlightBackground": "#edebfc",
+		"editor.lineHighlightBackground": "#fcfaed",
+		"editor.lineHighlightBorder": "#fcfaed00",
+		"editor.findMatchBackground": "#a6d2ff",
+		"editor.findMatchBorder": "#000000",
+		"editor.findMatchHighlightBackground": "#ffe959",
+		"editor.findMatchHighlightBorder": "#ffe95900",
+		"editorBracketMatch.background": "#93d9d9",
+		"editorBracketMatch.border": "#93d9d900",
+		"editorBracketPairGuide.activeBackground1": "#ff0000",
+		"editorBracketPairGuide.background1": "#00ff00",
+		"editorBracketHighlight.foreground1": "#000000",
+		"editorBracketHighlight.foreground2": "#000000",
+		"editorBracketHighlight.foreground3": "#000000",
+		"editorBracketHighlight.foreground4": "#000000",
+		"editorBracketHighlight.foreground5": "#000000",
+		"editorBracketHighlight.foreground6": "#000000",
+		"editorIndentGuide.background": "#e6e6e6",
+		"editorIndentGuide.activeBackground": "#e6e6e6",
+		"editorInfo.background": "#f5eac1",
+		"editorInfo.foreground": "#f5eac100",
+		"editorInlayHint.background": "#f5f5f5",
+		"editorInlayHint.foreground": "#7a7a7a",
+		"editorUnnecessaryCode.opacity": "#000000e0",
+		"editorWarning.background": "#f5eac1",
+		"activityBar.background": "#f2f2f2",
+		"activityBar.activeBackground": "#bdbdbd",
+		"activityBar.foreground": "#000000",
+		"activityBar.border": "#d1d1d1",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#d1d1d1",
+		"list.hoverBackground": "#00000000",
+		"input.background": "#ffffff",
+		"input.border": "#d1d1d1",
+		"inputOption.activeBackground": "#dae4ed",
+		"inputOption.activeForeground": "#40b6e0",
+		"breadcrumb.background": "#f2f2f2",
+		"editorGroupHeader.tabsBackground": "#f2f2f2",
+		"editorGroupHeader.tabsBorder": "#d1d1d1",
+		"tab.inactiveBackground": "#f2f2f2",
+		"tab.hoverBackground": "#dadada",
+		"tab.activeBorder": "#4083c9"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.documentation",
+				"comment.line.double-slash.documentation"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Comments Javadoc: @param",
+			"scope": [
+				"keyword.other.documentation.javadoc"
+			],
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Java: Keywords",
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"storage.type.primitive",
+				"keyword.declaration",
+				"variable.language",
+				"storage.type.modifier"
+			],
+			"settings": {
+				"foreground": "#0033b3"
+			}
+		},
+		{
+			"name": "Java: Variables (inside class)",
+			"scope": [
+				"variable.other.definition",
+				"variable.other.object.property",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#871094"
+			}
+		},
+		{
+			"name": "Used Function Names",
+			"scope": [
+				"meta.method.identifier",
+				"entity.name.function.dart",
+				"entity.name.function.definition"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#00627a"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#1750eb"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.quoted.triple",
+				"string.quoted.other",
+				"string.interpolated"
+			],
+			"settings": {
+				"foreground": "#067d17"
+			}
+		},
+		{
+			"name": "Java: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#0037a6"
+			}
+		},
+		{
+			"name": "Java: Header",
+			"scope": [
+				"storage.modifier.import",
+				"storage.modifier.package",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Java: Annotations",
+			"scope": [
+				"storage.type.annotation",
+				"punctuation.definition.annotation"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9e880d"
+			}
+		},
+		{
+			"name": "Java : true, false",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0033b3"
+			}
+		},
+		{
+			"name": "Property Names",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "Java: Defaluts",
+			"scope": [
+				"punctuation.definition.parameters",
+				"keyword.control.ternary",
+				"keyword.operator",
+				"storage.type.generic",
+				"storage.type.java",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "XML: Tags",
+			"scope": [
+				"entity.name.tag.localname"
+			],
+			"settings": {
+				"foreground": "#0033b3"
+			}
+		},
+		{
+			"name": "XML: Tags Punctuation",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#080808"
+			}
+		},
+		{
+			"name": "XML: Namespace (before :)",
+			"scope": [
+				"entity.other.attribute-name.namespace"
+			],
+			"settings": {
+				"foreground": "#871094"
+			}
+		},
+		{
+			"name": "XML: Local name (after :)",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#174ad4"
+			}
+		},
+		{
+			"name": "XML: punctuation inside tag",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#174ad4"
+			}
+		},
+		{
+			"name": "C++: Header",
+			"scope": [
+				"punctuation.definition.directive",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9e880d"
+			}
+		},
+		{
+			"name": "C++: Class Name",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "C++: Variables (inside class)",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#660e7a"
+			}
+		},
+		{
+			"name": "C++: std::",
+			"scope": [
+				"entity.name.scope-resolution"
+			],
+			"settings": {
+				"foreground": "#008080"
+			}
+		}
+	]
+}

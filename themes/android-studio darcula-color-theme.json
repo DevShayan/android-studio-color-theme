@@ -1,0 +1,260 @@
+{
+	"name": "Android Studio (Darcula)",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2B2B2B",
+		"editor.foreground": "#A9B7C6",
+		"editorLineNumber.foreground": "#606366",
+		"editorLineNumber.activeForeground": "#A4A3A3",
+		"editor.selectionBackground": "#214283",
+		"editor.selectionHighlightBackground": "#344134",
+		"editor.lineHighlightBackground": "#323232",
+		"editor.lineHighlightBorder": "#00000000",
+		"editor.findMatchBackground": "#214283",
+		"editor.findMatchBorder": "#BBBBBB",
+		"editor.findMatchHighlightBackground": "#32593D",
+		"editor.findMatchHighlightBorder": "#3C704B",
+		"editorBracketMatch.background": "#3B514D",
+		"editorBracketMatch.border": "#00000000",
+		"editorBracketPairGuide.activeBackground1": "#ff0000",
+		"editorBracketPairGuide.background1": "#00ff00",
+		"editorBracketHighlight.foreground1": "#A9B7C6",
+		"editorBracketHighlight.foreground2": "#A9B7C6",
+		"editorBracketHighlight.foreground3": "#A9B7C6",
+		"editorBracketHighlight.foreground4": "#A9B7C6",
+		"editorBracketHighlight.foreground5": "#A9B7C6",
+		"editorBracketHighlight.foreground6": "#A9B7C6",
+		"editorIndentGuide.background": "#373737",
+		"editorIndentGuide.activeBackground": "#373737",
+		"editorInfo.background": "#52503A",
+		"editorInfo.foreground": "#00000000",
+		"editorInlayHint.background": "#333333",
+		"editorInlayHint.foreground": "#787878",
+		"editorUnnecessaryCode.opacity": "#000000ff",
+		"editorWarning.background": "#52503A",
+		"activityBar.background": "#3C3F41",
+		"activityBar.inactiveForeground": "#AFB1B3",
+		"activityBar.activeBackground": "#2C2E2F",
+		"activityBar.foreground": "#FFFFFF",
+		"list.hoverBackground": "#00000000",
+		"input.background": "#3C3F41",
+		"input.border": "#646464",
+		"inputOption.activeBackground": "#45494A"
+		// 72737a = unused variables
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.javadoc",
+				"comment.line.double-slash.documentation"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#629755"
+			}
+		},
+		{
+			"name": "Comments Javadoc: @param",
+			"scope": [
+				"keyword.other.documentation.javadoc"
+			],
+			"settings": {
+				"fontStyle": "italic bold underline",
+				"foreground": "#629755"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"storage.type.primitive", // primitive
+				// dart
+				"keyword.declaration",
+				"variable.language",
+				// C++
+				"storage.type.modifier"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.definition",
+				"variable.other.object.property",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "Function Names",
+			"scope": [
+				"meta.method.identifier",
+				//dart
+				"entity.name.function.dart",
+				//C++
+				"entity.name.function.definition"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#6897BB"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.quoted.triple", // ?
+				"string.quoted.other",
+				// dart
+				"string.interpolated"
+			],
+			"settings": {
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences: valid",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Punctuation: Colored",
+			"scope": [
+				"punctuation.terminator",
+				"punctuation.separator.delimiter",
+				// json
+				"punctuation.separator.array",
+				"punctuation.separator.dictionary",
+				// dart
+				"punctuation.comma"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Java: Header",
+			"scope": [
+				"storage.modifier.import",
+				"storage.modifier.package",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "Header: C++",
+			"scope": [
+				// java
+				"punctuation.definition.directive",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "Annotations",
+			"scope": [
+				"storage.type.annotation",
+				"punctuation.definition.annotation"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "Property Names",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "Defalut",
+			"scope": [
+				"punctuation.definition.parameters",
+				"keyword.control.ternary",
+				"keyword.operator",
+				"storage.type.generic",
+				"storage.type.java",
+				// Variables
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#A9B7C6"
+			}
+		},
+		{
+			"name": "XML: Tags",
+			"scope": [
+				"entity.name.tag.localname"
+			],
+			"settings": {
+				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "XML: Tags Punctuation",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "XML: Namespace (before :)",
+			"scope": [
+				"entity.other.attribute-name.namespace"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		}
+	]
+}
