@@ -17,8 +17,6 @@
 		"editor.findMatchHighlightBorder": "#ffe95900",
 		"editorBracketMatch.background": "#93d9d9",
 		"editorBracketMatch.border": "#93d9d900",
-		"editorBracketPairGuide.activeBackground1": "#ff0000",
-		"editorBracketPairGuide.background1": "#00ff00",
 		"editorBracketHighlight.foreground1": "#000000",
 		"editorBracketHighlight.foreground2": "#000000",
 		"editorBracketHighlight.foreground3": "#000000",
@@ -184,16 +182,6 @@
 			}
 		},
 		{
-			"name": "Property Names",
-			"scope": [
-				"support.type.property-name"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#9876AA"
-			}
-		},
-		{
 			"name": "Java: Defaluts",
 			"scope": [
 				"punctuation.definition.parameters",
@@ -285,11 +273,22 @@
 		{
 			"name": "C++: std::",
 			"scope": [
-				"entity.name.scope-resolution"
+				"entity.name.scope-resolution",
+				"entity.name.namespace"
 			],
 			"settings": {
 				"foreground": "#008080"
 			}
-		}
+		},
+		{
+			"name": "JSON: Property Names",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#871094"
+			}
+		},
 	]
 }

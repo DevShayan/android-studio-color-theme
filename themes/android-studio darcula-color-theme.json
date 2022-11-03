@@ -16,8 +16,6 @@
 		"editor.findMatchHighlightBorder": "#3C704B",
 		"editorBracketMatch.background": "#3B514D",
 		"editorBracketMatch.border": "#00000000",
-		"editorBracketPairGuide.activeBackground1": "#ff0000",
-		"editorBracketPairGuide.background1": "#00ff00",
 		"editorBracketHighlight.foreground1": "#A9B7C6",
 		"editorBracketHighlight.foreground2": "#A9B7C6",
 		"editorBracketHighlight.foreground3": "#A9B7C6",
@@ -40,7 +38,6 @@
 		"input.background": "#3C3F41",
 		"input.border": "#646464",
 		"inputOption.activeBackground": "#45494A"
-		// 72737a = unused variables
 	},
 	"tokenColors": [
 		{
@@ -79,11 +76,9 @@
 			"scope": [
 				"keyword",
 				"storage.modifier",
-				"storage.type.primitive", // primitive
-				// dart
+				"storage.type.primitive",
 				"keyword.declaration",
 				"variable.language",
-				// C++
 				"storage.type.modifier"
 			],
 			"settings": {
@@ -105,9 +100,7 @@
 			"name": "Function Names",
 			"scope": [
 				"meta.method.identifier",
-				//dart
 				"entity.name.function.dart",
-				//C++
 				"entity.name.function.definition"
 			],
 			"settings": {
@@ -129,9 +122,8 @@
 			"scope": [
 				"string.quoted.single",
 				"string.quoted.double",
-				"string.quoted.triple", // ?
+				"string.quoted.triple",
 				"string.quoted.other",
-				// dart
 				"string.interpolated"
 			],
 			"settings": {
@@ -150,10 +142,8 @@
 			"scope": [
 				"punctuation.terminator",
 				"punctuation.separator.delimiter",
-				// json
 				"punctuation.separator.array",
 				"punctuation.separator.dictionary",
-				// dart
 				"punctuation.comma"
 			],
 			"settings": {
@@ -174,7 +164,6 @@
 		{
 			"name": "Header: C++",
 			"scope": [
-				// java
 				"punctuation.definition.directive",
 				"keyword.control.directive"
 			],
@@ -222,7 +211,6 @@
 				"keyword.operator",
 				"storage.type.generic",
 				"storage.type.java",
-				// Variables
 				"variable.parameter"
 			],
 			"settings": {
