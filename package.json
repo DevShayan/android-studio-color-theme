@@ -10,6 +10,10 @@
   "author": {
     "name": "Shayan Ahmed Khan"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevShayan/android-studio-color-theme.git"
+  },
   "license": "MIT",
   "homepage": "",
   "keywords": [
