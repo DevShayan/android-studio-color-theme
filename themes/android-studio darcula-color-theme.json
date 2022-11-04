@@ -162,7 +162,7 @@
 			}
 		},
 		{
-			"name": "Header: C++",
+			"name": "C++: Header",
 			"scope": [
 				"punctuation.definition.directive",
 				"keyword.control.directive"
@@ -170,6 +170,15 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "C++: Variables (inside class)",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#9876AA"
 			}
 		},
 		{
