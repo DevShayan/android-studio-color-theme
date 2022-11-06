@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "android-studio-color-theme" extension will be documented in this file.
+## [0.0.4 - 06-11-2022]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+#### Changed
 
-## [Unreleased]
-
-- Initial release
+- Line folding background color to transparent

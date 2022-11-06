@@ -22,6 +22,7 @@
 		"editorBracketHighlight.foreground4": "#A9B7C6",
 		"editorBracketHighlight.foreground5": "#A9B7C6",
 		"editorBracketHighlight.foreground6": "#A9B7C6",
+		"editor.foldBackground": "#00000000",
 		"editorIndentGuide.background": "#373737",
 		"editorIndentGuide.activeBackground": "#373737",
 		"editorInfo.background": "#52503A",
