@@ -76,11 +76,10 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"storage.modifier",
-				"storage.type.primitive",
+				"storage",
 				"keyword.declaration",
 				"variable.language",
-				"storage.type.modifier"
+				"keyword.operator.instanceof"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -219,7 +218,7 @@
 				"punctuation.definition.parameters",
 				"keyword.control.ternary",
 				"keyword.operator",
-				"storage.type.generic",
+				"storage.type.generic.java",
 				"storage.type.java",
 				"variable.parameter"
 			],
@@ -228,21 +227,13 @@
 			}
 		},
 		{
-			"name": "XML: Tags",
+			"name": "XML: Tags + Tags Punctuation",
 			"scope": [
-				"entity.name.tag.localname"
-			],
-			"settings": {
-				"foreground": "#FFC66D"
-			}
-		},
-		{
-			"name": "XML: Tags Punctuation",
-			"scope": [
+				"entity.name.tag.localname",
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#FFC66D"
+				"foreground": "#e8bf6a"
 			}
 		},
 		{
@@ -252,6 +243,44 @@
 			],
 			"settings": {
 				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "XML: Attributes (after :)",
+			"scope": [
+				"meta.tag.xml"
+			],
+			"settings": {
+				"foreground": "#bababa"
+			}
+		},
+		{
+			"name": "HTML: Tags",
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#e8bf6a"
+			}
+		},
+		{
+			"name": "HTML: Attribute names",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#bababa"
+			}
+		},
+		{
+			"name": "HTML: Strings",
+			"scope": [
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#a5c261"
 			}
 		}
 	]

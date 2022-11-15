@@ -88,11 +88,9 @@
 			"name": "Java: Keywords",
 			"scope": [
 				"keyword",
-				"storage.modifier",
-				"storage.type.primitive",
+				"storage",
 				"keyword.declaration",
-				"variable.language",
-				"storage.type.modifier"
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#0033b3"
@@ -226,16 +224,7 @@
 		{
 			"name": "XML: Local name (after :)",
 			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#174ad4"
-			}
-		},
-		{
-			"name": "XML: punctuation inside tag",
-			"scope": [
-				"entity.name.tag"
+				"meta.tag"
 			],
 			"settings": {
 				"foreground": "#174ad4"
@@ -290,6 +279,6 @@
 				"fontStyle": "",
 				"foreground": "#871094"
 			}
-		},
+		}
 	]
 }
