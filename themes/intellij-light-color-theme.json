@@ -36,16 +36,21 @@
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#d1d1d1",
 		"activityBar.activeBackground": "#bdbdbd",
-		"sideBar.background": "#ffffff",
-		"sideBar.border": "#d1d1d1",
+		"dropdown.background": "#ffffff",
+		"dropdown.border": "#d1d1d1",
+		"gitDecoration.addedResourceForeground": "#384c38",
+		"gitDecoration.modifiedResourceForeground": "#374752",
+		"gitDecoration.deletedResourceForeground": "#656e76",
 		"list.inactiveSelectionBackground": "#d4d4d4",
 		"list.activeSelectionBackground": "#2675bf",
 		"list.hoverBackground": "#00000000",
-		"input.background": "#ffffff",
+		"input.background": "#00000000",
 		"input.border": "#d1d1d1",
 		"inputOption.activeBackground": "#dae4ed",
 		"inputOption.activeForeground": "#40b6e0",
 		"inputOption.hoverBackground": "#dfdfdf",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#d1d1d1",
 		"editorGroupHeader.tabsBackground": "#f2f2f2",
 		"editorGroupHeader.tabsBorder": "#d1d1d1",
 		"tab.inactiveBackground": "#f2f2f2",
@@ -59,7 +64,22 @@
 		"editorSuggestWidget.selectedBackground": "#c5dffc",
 		"editorSuggestWidget.selectedForeground": "#000000",
 		"editorSuggestWidget.focusHighlightForeground": "#2470b3",
-		"editorSuggestWidget.highlightForeground": "#2470b3"
+		"editorSuggestWidget.highlightForeground": "#2470b3",
+		"panelTitle.activeBorder": "#4a88c7",
+		"terminal.ansiRed": "#ce0505",
+		"terminal.ansiBrightRed": "#ce0505",
+		"terminal.ansiGreen": "#067d17",
+		"terminal.ansiBrightGreen": "#067d17",
+		"terminal.ansiYellow": "#b28c00",
+		"terminal.ansiBrightYellow": "#b28c00",
+		"terminal.ansiBlue": "#063fdb",
+		"terminal.ansiBrightBlue": "#063fdb",
+		"terminal.ansiMagenta": "#b309b3",
+		"terminal.ansiBrightMagenta": "#b309b3",
+		"terminal.ansiCyan": "#028e8e",
+		"terminal.ansiBrightCyan": "#028e8e",
+		"terminal.ansiWhite":  "#929292",
+		"terminal.ansiBrightWhite":  "#929292",
 	},
 	"tokenColors": [
 		{
@@ -433,7 +453,6 @@
 		{
 			"name": "Markdown: Punctuation",
 			"scope": [
-				"punctuation.definition.heading.markdown",
 				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.bold.markdown"
 			],
@@ -442,12 +461,13 @@
 			}
 		},
 		{
-			"name": "Markdown: Heading Font",
+			"name": "Markdown: Heading",
 			"scope": [
 				"markup.heading.markdown"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#871094"
 			}
 		},
 		{
@@ -460,13 +480,12 @@
 			}
 		},
 		{
-			"name": "Markdown: Heading",
+			"name": "Markdown: link line",
 			"scope": [
-				"entity.name.section.markdown"
+				"meta.image.inline.markdown"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#871094"
+				"fontStyle": "italic"
 			}
 		},
 		{

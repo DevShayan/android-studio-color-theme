@@ -2,6 +2,11 @@
 
 Android Studio color theme contains two basic themes, Darcula and Intellij light.
 
+## Supported Languages
+* Java - XML
+* C++
+* HTML - CSS - JavaScript
+
 ## Applying theme
 
 ### To apply theme:
