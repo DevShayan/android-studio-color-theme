@@ -2,7 +2,7 @@
   "name": "android-studio-color-theme",
   "displayName": "Android Studio Color Theme",
   "description": "Default themes used in Android Studio",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.0.0"
   },
