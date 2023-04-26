@@ -31,7 +31,7 @@
 		"editorWarning.background": "#52503A",
 		"editorInlayHint.background": "#333333",
 		"editorInlayHint.foreground": "#787878",
-		"editorUnnecessaryCode.opacity": "#000000ff",
+		"editorUnnecessaryCode.opacity": "#00000058",
 		"activityBar.background": "#3c3f41",
 		"activityBar.foreground": "#FFFFFF",
 		"activityBar.border": "#323232",

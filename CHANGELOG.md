@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.1 - 04-26-2023]
+#### Added
+
+- Unused code color
+
 ## [1.2.0 - 04-07-2023]
 #### Changed, Added
 
