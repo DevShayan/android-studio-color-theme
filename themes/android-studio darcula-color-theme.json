@@ -41,7 +41,7 @@
 		"dropdown.background": "#2B2B2B",
 		"dropdown.border": "#646464",
 		"gitDecoration.addedResourceForeground": "#384c38",
-		"gitDecoration.modifiedResourceForeground": "#374752",
+		"gitDecoration.modifiedResourceForeground": "#3E86A0",
 		"gitDecoration.deletedResourceForeground": "#656e76",
 		"list.inactiveSelectionBackground": "#0d293e",
 		"list.activeSelectionBackground": "#2f65ca",
@@ -87,7 +87,7 @@
 		"terminal.ansiCyan": "#00a3a3",
 		"terminal.ansiBrightCyan": "#00a3a3",
 		"terminal.ansiWhite":  "#808080",
-		"terminal.ansiBrightWhite":  "#808080",
+		"terminal.ansiBrightWhite":  "#808080"
 	},
 	"tokenColors": [
 		{
@@ -238,7 +238,7 @@
 			"name": "Java: Header",
 			"scope": [
 				"storage.modifier.import",
-				"storage.modifier.package",
+				"storage.modifier.package"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -509,6 +509,6 @@
 			"settings": {
 				"foreground": "#A9B7C6"
 			}
-		},
+		}
 	]
 }

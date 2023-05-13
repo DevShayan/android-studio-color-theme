@@ -39,7 +39,7 @@
 		"dropdown.background": "#ffffff",
 		"dropdown.border": "#d1d1d1",
 		"gitDecoration.addedResourceForeground": "#384c38",
-		"gitDecoration.modifiedResourceForeground": "#374752",
+		"gitDecoration.modifiedResourceForeground": "#3E86A0",
 		"gitDecoration.deletedResourceForeground": "#656e76",
 		"list.inactiveSelectionBackground": "#d4d4d4",
 		"list.activeSelectionBackground": "#2675bf",
@@ -79,7 +79,7 @@
 		"terminal.ansiCyan": "#028e8e",
 		"terminal.ansiBrightCyan": "#028e8e",
 		"terminal.ansiWhite":  "#929292",
-		"terminal.ansiBrightWhite":  "#929292",
+		"terminal.ansiBrightWhite":  "#929292"
 	},
 	"tokenColors": [
 		{
@@ -212,7 +212,7 @@
 			"name": "Java: Header",
 			"scope": [
 				"storage.modifier.import",
-				"storage.modifier.package",
+				"storage.modifier.package"
 			],
 			"settings": {
 				"fontStyle": "",

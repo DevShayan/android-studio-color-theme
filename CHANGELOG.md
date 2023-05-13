@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.2 - 05-13-2023]
+#### Changed
+
+- Make the filenames of uncommitted changes more prominent and easier to distinguish.
+
 ## [1.2.1 - 04-26-2023]
 #### Added
 
