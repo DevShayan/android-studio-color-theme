@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.3.1 - 05-13-2023]
+#### Added
+
+- New Git Decorations
+- Terminal Header Color
+- Statusbar Colors
+- DiffEditor Colors
+
+#### Changed
+
+- Git Decorations
+- Statusbar Colors
+- Editor Word Highlighting Colors
+
 ## [1.2.1 - 04-26-2023]
 #### Added
 
