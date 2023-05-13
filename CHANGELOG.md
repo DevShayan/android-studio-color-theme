@@ -1,9 +1,18 @@
 # Change Log
 
-## [1.2.2 - 05-13-2023]
+## [1.3.1 - 05-13-2023]
+#### Added
+
+- New Git Decorations
+- Terminal Header Color
+- Statusbar Colors
+- DiffEditor Colors
+
 #### Changed
 
-- Make the filenames of uncommitted changes more prominent and easier to distinguish.
+- Git Decorations
+- Statusbar Colors
+- Editor Word Highlighting Colors
 
 ## [1.2.1 - 04-26-2023]
 #### Added

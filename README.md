@@ -1,4 +1,4 @@
-# Android Studio color theme README
+# Android Studio themes
 
 Android Studio color theme contains two basic themes, Darcula and Intellij light.
 
